@@ -1,0 +1,20 @@
+{
+  "generatedBy": "Microsoft.NET.Sdk.Functions.Generator-4.1.1",
+  "configurationSource": "attributes",
+  "bindings": [
+    {
+      "type": "httpTrigger",
+      "authLevel": "anonymous",
+      "name": "req"
+    },
+    {
+      "type": "signalRConnectionInfo",
+      "hubName": "serverless",
+      "connectionStringSetting": "SignalRConnectionString",
+      "name": "connectionInfo"
+    }
+  ],
+  "disabled": false,
+  "scriptFile": "../bin/TodoList_Functions.dll",
+  "entryPoint": "ToDoList.Functions.Negotiate.Run"
+}

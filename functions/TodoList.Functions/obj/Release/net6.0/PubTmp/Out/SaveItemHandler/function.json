@@ -1,0 +1,31 @@
+{
+  "generatedBy": "Microsoft.NET.Sdk.Functions.Generator-4.1.1",
+  "configurationSource": "attributes",
+  "bindings": [
+    {
+      "type": "serviceBusTrigger",
+      "connection": "ServiceBusConnectionString",
+      "queueName": "events.todo.newitem",
+      "isSessionsEnabled": false,
+      "autoCompleteMessages": true,
+      "name": "newItem"
+    },
+    {
+      "type": "sql",
+      "connectionStringSetting": "SqlServerConnectionString",
+      "commandText": "dbo.ToDos",
+      "commandType": "text",
+      "name": "rows"
+    },
+    {
+      "type": "serviceBus",
+      "connection": "ServiceBusConnectionString",
+      "queueOrTopicName": "events.todo.itemsaved",
+      "entityType": "queue",
+      "name": "messages"
+    }
+  ],
+  "disabled": false,
+  "scriptFile": "../bin/TodoList_Functions.dll",
+  "entryPoint": "ToDoList.Functions.SaveItemHandler.Run"
+}

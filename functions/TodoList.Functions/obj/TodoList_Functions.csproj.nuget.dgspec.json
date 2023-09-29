@@ -1,0 +1,97 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\rochale.yu\\Desktop\\acadse\\CSharp\\ToDoListProject4\\functions\\TodoList.Functions\\TodoList_Functions.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\rochale.yu\\Desktop\\acadse\\CSharp\\ToDoListProject4\\functions\\TodoList.Functions\\TodoList_Functions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rochale.yu\\Desktop\\acadse\\CSharp\\ToDoListProject4\\functions\\TodoList.Functions\\TodoList_Functions.csproj",
+        "projectName": "TodoList_Functions",
+        "projectPath": "C:\\Users\\rochale.yu\\Desktop\\acadse\\CSharp\\ToDoListProject4\\functions\\TodoList.Functions\\TodoList_Functions.csproj",
+        "packagesPath": "C:\\Users\\rochale.yu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rochale.yu\\Desktop\\acadse\\CSharp\\ToDoListProject4\\functions\\TodoList.Functions\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rochale.yu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.13.1, )"
+            },
+            "Azure.Storage.Files.Shares": {
+              "target": "Package",
+              "version": "[12.1.0, )"
+            },
+            "Azure.Storage.Queues": {
+              "target": "Package",
+              "version": "[12.11.1, )"
+            },
+            "Microsoft.Azure.WebJobs.Extensions.ServiceBus": {
+              "target": "Package",
+              "version": "[5.8.0, )"
+            },
+            "Microsoft.Azure.WebJobs.Extensions.SignalRService": {
+              "target": "Package",
+              "version": "[1.8.0, )"
+            },
+            "Microsoft.Azure.WebJobs.Extensions.Sql": {
+              "target": "Package",
+              "version": "[0.1.483-preview, )"
+            },
+            "Microsoft.Extensions.Azure": {
+              "target": "Package",
+              "version": "[1.5.0, )"
+            },
+            "Microsoft.NET.Sdk.Functions": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

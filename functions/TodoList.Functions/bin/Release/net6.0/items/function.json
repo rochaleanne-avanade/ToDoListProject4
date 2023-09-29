@@ -1,0 +1,24 @@
+{
+  "generatedBy": "Microsoft.NET.Sdk.Functions.Generator-4.1.1",
+  "configurationSource": "attributes",
+  "bindings": [
+    {
+      "type": "httpTrigger",
+      "methods": [
+        "post"
+      ],
+      "authLevel": "function",
+      "name": "req"
+    },
+    {
+      "type": "serviceBus",
+      "connection": "ServiceBusConnectionString",
+      "queueOrTopicName": "events.todo.newitem",
+      "entityType": "queue",
+      "name": "messages"
+    }
+  ],
+  "disabled": false,
+  "scriptFile": "../bin/TodoList_Functions.dll",
+  "entryPoint": "ToDoList.Functions.SaveItemApi.Run"
+}

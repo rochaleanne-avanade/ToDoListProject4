@@ -1,0 +1,327 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\rochale.yu\\Desktop\\acadse\\CSharp\\ToDoListProject4\\src\\web\\ToDoList.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\rochale.yu\\Desktop\\acadse\\CSharp\\ToDoListProject4\\src\\entities\\ToDoList.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rochale.yu\\Desktop\\acadse\\CSharp\\ToDoListProject4\\src\\entities\\ToDoList.Entities.csproj",
+        "projectName": "ToDoList.Entities",
+        "projectPath": "C:\\Users\\rochale.yu\\Desktop\\acadse\\CSharp\\ToDoListProject4\\src\\entities\\ToDoList.Entities.csproj",
+        "packagesPath": "C:\\Users\\rochale.yu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rochale.yu\\Desktop\\acadse\\CSharp\\ToDoListProject4\\src\\entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rochale.yu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rochale.yu\\Desktop\\acadse\\CSharp\\ToDoListProject4\\src\\messaging\\ToDoList.Messaging.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rochale.yu\\Desktop\\acadse\\CSharp\\ToDoListProject4\\src\\messaging\\ToDoList.Messaging.csproj",
+        "projectName": "ToDoList.Messaging",
+        "projectPath": "C:\\Users\\rochale.yu\\Desktop\\acadse\\CSharp\\ToDoListProject4\\src\\messaging\\ToDoList.Messaging.csproj",
+        "packagesPath": "C:\\Users\\rochale.yu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rochale.yu\\Desktop\\acadse\\CSharp\\ToDoListProject4\\src\\messaging\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rochale.yu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\rochale.yu\\Desktop\\acadse\\CSharp\\ToDoListProject4\\src\\entities\\ToDoList.Entities.csproj": {
+                "projectPath": "C:\\Users\\rochale.yu\\Desktop\\acadse\\CSharp\\ToDoListProject4\\src\\entities\\ToDoList.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Azure.Messaging.ServiceBus": {
+              "target": "Package",
+              "version": "[7.10.0, )"
+            },
+            "Microsoft.Extensions.Azure": {
+              "target": "Package",
+              "version": "[1.6.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rochale.yu\\Desktop\\acadse\\CSharp\\ToDoListProject4\\src\\model\\ToDoList.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rochale.yu\\Desktop\\acadse\\CSharp\\ToDoListProject4\\src\\model\\ToDoList.Model.csproj",
+        "projectName": "ToDoList.Model",
+        "projectPath": "C:\\Users\\rochale.yu\\Desktop\\acadse\\CSharp\\ToDoListProject4\\src\\model\\ToDoList.Model.csproj",
+        "packagesPath": "C:\\Users\\rochale.yu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rochale.yu\\Desktop\\acadse\\CSharp\\ToDoListProject4\\src\\model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rochale.yu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\rochale.yu\\Desktop\\acadse\\CSharp\\ToDoListProject4\\src\\entities\\ToDoList.Entities.csproj": {
+                "projectPath": "C:\\Users\\rochale.yu\\Desktop\\acadse\\CSharp\\ToDoListProject4\\src\\entities\\ToDoList.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rochale.yu\\Desktop\\acadse\\CSharp\\ToDoListProject4\\src\\web\\ToDoList.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rochale.yu\\Desktop\\acadse\\CSharp\\ToDoListProject4\\src\\web\\ToDoList.csproj",
+        "projectName": "ToDoList",
+        "projectPath": "C:\\Users\\rochale.yu\\Desktop\\acadse\\CSharp\\ToDoListProject4\\src\\web\\ToDoList.csproj",
+        "packagesPath": "C:\\Users\\rochale.yu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rochale.yu\\Desktop\\acadse\\CSharp\\ToDoListProject4\\src\\web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rochale.yu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\rochale.yu\\Desktop\\acadse\\CSharp\\ToDoListProject4\\src\\entities\\ToDoList.Entities.csproj": {
+                "projectPath": "C:\\Users\\rochale.yu\\Desktop\\acadse\\CSharp\\ToDoListProject4\\src\\entities\\ToDoList.Entities.csproj"
+              },
+              "C:\\Users\\rochale.yu\\Desktop\\acadse\\CSharp\\ToDoListProject4\\src\\messaging\\ToDoList.Messaging.csproj": {
+                "projectPath": "C:\\Users\\rochale.yu\\Desktop\\acadse\\CSharp\\ToDoListProject4\\src\\messaging\\ToDoList.Messaging.csproj"
+              },
+              "C:\\Users\\rochale.yu\\Desktop\\acadse\\CSharp\\ToDoListProject4\\src\\model\\ToDoList.Model.csproj": {
+                "projectPath": "C:\\Users\\rochale.yu\\Desktop\\acadse\\CSharp\\ToDoListProject4\\src\\model\\ToDoList.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Azure.Extensions.AspNetCore.Configuration.Secrets": {
+              "target": "Package",
+              "version": "[1.2.2, )"
+            },
+            "Azure.Identity": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.14, )"
+            },
+            "prometheus-net.AspNetCore": {
+              "target": "Package",
+              "version": "[3.6.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

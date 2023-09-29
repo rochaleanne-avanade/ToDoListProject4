@@ -1,0 +1,23 @@
+{
+  "generatedBy": "Microsoft.NET.Sdk.Functions.Generator-4.1.1",
+  "configurationSource": "attributes",
+  "bindings": [
+    {
+      "type": "serviceBusTrigger",
+      "connection": "ServiceBusConnectionString",
+      "queueName": "events.todo.itemsaved",
+      "isSessionsEnabled": false,
+      "autoCompleteMessages": true,
+      "name": "savedEvent"
+    },
+    {
+      "type": "signalR",
+      "hubName": "serverless",
+      "connectionStringSetting": "SignalRConnectionString",
+      "name": "messages"
+    }
+  ],
+  "disabled": false,
+  "scriptFile": "../bin/TodoList_Functions.dll",
+  "entryPoint": "ToDoList.Functions.Broadcast.Run"
+}

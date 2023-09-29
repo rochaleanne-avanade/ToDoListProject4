@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "dW5FEbDXMHl+IKUwUNIkhzR2lEqme0oK+OwaJxzCZ59h3q4Tg7stJZpViwKXMQUHh2DjdYJJV69jdsqRKI7nJA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rochale.yu\\Desktop\\acadse\\CSharp\\ToDoListProject4\\src\\entities\\ToDoList.Entities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rochale.yu\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
